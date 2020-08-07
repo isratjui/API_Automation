@@ -56,7 +56,7 @@ public class promotest {
             //assertThat(bodyAsString, containsString("promo"));
             assertThat(bodyAsString, containsString(strLine2));
             System.out.println(strLine2);
-            // assertEquals(String.valueOf(bodyAsString.contains("Hyderabad")) /*Expected value*/, true /*Actual Value*/, "Response body contains Hyderabad");
+            
         }
     }
 
