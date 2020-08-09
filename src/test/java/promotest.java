@@ -37,7 +37,6 @@ public class promotest {
 
             JSONObject jsonObject = new JSONObject();
             jsonObject.put("access_token", strLine);
-            //jsonObject.put("lgcNumber", "7500037427390449");//send array type data
             request.body(jsonObject.toJSONString());
             Response post = request.post("https://test-api.obhai.com/get_all_promotion");
             int statusCode = post.statusCode();
